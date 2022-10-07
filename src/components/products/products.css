@@ -1,0 +1,68 @@
+.panels{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+    background:linear-gradient(rgb(175, 139, 233), rgb(92, 163, 204))
+}
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(rgb(227, 225, 238), rgb(63, 127, 211));
+    align-items: center;
+    justify-content: center;
+}
+
+.card-last{
+    margin: 0px auto;
+    background: rgb(162, 238, 194);
+    border: 1px solid rgb(0, 252, 21);
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+    justify-content:center;
+    align-items:center;
+}
+.last-title{
+    width:100%;
+    font-size: 1.2rem;
+    color: rgb(24, 5, 133);
+    text-shadow: 1px 1px 5px #0000006d;
+    text-align: center;
+}
+.last-desc{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: black;
+    margin-top: 0.6rem; 
+}
+.last-price{
+    width:100%;
+    font-size: 1.5rem;
+    color: rgb(29, 9, 139);
+    text-shadow: 1px 1px 5px #0000006d;
+    text-align: center;
+}
+.last-img{
+    max-width: 50vw;
+    max-height: 50vw;
+}
+
+@media (min-width: 1100px){
+    .card-last{
+    width: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+    .last-title{
+       display: flex;
+       justify-content: center;
+    }
+    .last-img{
+        margin: 0 auto;
+        max-width: 40%;
+        display: flex;
+        align-items: center;
+    }
+    
+}
